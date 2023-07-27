@@ -173,7 +173,7 @@ export default function Pricing({ products }: Props) {
             <div className="flex items-center justify-start">
               <a href="https://vercel.com" aria-label="Vercel.com Link">
                 <img
-                  src="/vercel.svg"
+                  src="/tbco-logo.svg"
                   alt="Vercel.com Logo"
                   className="h-6 text-white"
                 />
