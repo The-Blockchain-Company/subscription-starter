@@ -20,7 +20,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   }, []);
 
   return (
-    <div className="bg-black">
+    <div className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
       <SessionContextProvider supabaseClient={supabaseClient}>
         <MyUserContextProvider>
           <Layout>
