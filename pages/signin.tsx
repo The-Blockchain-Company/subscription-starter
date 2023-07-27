@@ -37,7 +37,7 @@ const SignIn = () => {
                 variables: {
                   default: {
                     colors: {
-                      brand: '#404040',
+                      brand: '#0B9ED9',
                       brandAccent: '#52525b'
                     }
                   }
