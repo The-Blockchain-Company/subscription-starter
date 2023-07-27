@@ -17,7 +17,7 @@ export default function Footer() {
             <span className="rounded-full border border-zinc-700 mr-2">
               <Logo />
             </span>
-            <span>ACME</span>
+            <span>The Blockchain Company.IO</span>
           </Link>
         </div>
         <div className="col-span-1 lg:col-span-2">
@@ -94,14 +94,14 @@ export default function Footer() {
       </div>
       <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4 bg-zinc-900">
         <div>
-          <span>&copy; 2020 ACME, Inc. All rights reserved.</span>
+          <span>&copy; 2023 AThe Blockchain Company.IO All rights reserved.</span>
         </div>
         <div className="flex items-center">
           <span className="text-white">Crafted by</span>
-          <a href="https://vercel.com" aria-label="Vercel.com Link">
+          <a href="https://vercel.com" aria-label="blockchain-company.io Link">
             <img
               src="/tbco-logo.svg"
-              alt="Vercel.com Logo"
+              alt="The Blockchain Company.IO Logo"
               className="inline-block h-6 ml-4 text-white"
             />
           </a>
