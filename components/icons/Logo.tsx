@@ -8,8 +8,8 @@ import Image from 'next/image';
 										{...props}
                                         src="https://quantumone.b-cdn.net/bcc-logo.svg"
                                         alt="bcc-logo"
-                                        width={834}
-                                        height={834}
+                                        width={32}
+                                        height={32}
                                       />
 
 
