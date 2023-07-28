@@ -1,18 +1,18 @@
-const Logo = ({ className = '', ...props }) => (
-  <svg
-    width="32"
-    height="32"
-    viewBox="0 0 32 32"
-    fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    className={className}
+
+
+ const Logo = ({ className = '', ...props }) => (
+
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="32.000000pt" height="32.000000pt" viewBox="0 0 32.000000 32.000000"
+ preserveAspectRatio="xMidYMid meet"
+ className={className}
     {...props}
-  >
-    <rect width="100%" height="100%" rx="16" fill="transparent" />
-    <path 
-    fillRule="evenodd"
-    clipRule="evenodd"
-    d="M3874 8125 c-126 -72 -521 -300 -879 -506 -357 -206 -1052 -607
+ >
+
+<g transform="translate(0.000000,834.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<rect width="100%" height="100%" rx="16" fill="white" />
+<path d="M3874 8125 c-126 -72 -521 -300 -879 -506 -357 -206 -1052 -607
 -1542 -890 l-893 -514 0 -2045 0 -2045 902 -520 c496 -286 1293 -745 1771
 -1021 l869 -501 332 192 c182 105 707 409 1166 674 459 266 840 488 845 494 6
 7 17 13 25 15 8 2 18 8 21 14 3 5 10 10 15 11 5 1 8 5 6 10 -1 4 3 6 10 5 9
@@ -33,11 +33,10 @@ l143 -81 0 -605 0 -605 -143 -81 c-287 -163 -882 -506 -890 -513 -4 -4 -6
 -398 -224 -873 -498z"/>
 <path d="M3062 4168 l3 -602 425 -243 c234 -134 430 -243 435 -243 10 0 15
 1174 5 1183 -3 2 -196 116 -430 252 -234 136 -428 249 -433 252 -4 2 -6 -267
--5 -599z"
-fill="blue"
-/>
-    
-  </svg>
+-5 -599z"/>
+</g>
+</svg>
+
 );
 
 export default Logo;
