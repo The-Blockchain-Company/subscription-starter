@@ -10,8 +10,8 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/bcc-text-logo.svg"
           alt="The Blockchain Company.IO Logo"
-          width={180}
-          height={37}
+          width={450}
+          height={92}
           priority
         />
       </div>
