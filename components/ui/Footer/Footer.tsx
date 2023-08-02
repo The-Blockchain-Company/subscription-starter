@@ -7,6 +7,7 @@ import s from './Footer.module.css';
 
 export default function Footer() {
   return (
+    <>
     <footer className="mx-auto max-w-[1920px] px-6 bg-zinc-900">
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 border-b border-zinc-600 py-12 text-white transition-colors duration-150 bg-zinc-900">
         <div className="col-span-1 lg:col-span-2">
@@ -40,7 +41,7 @@ export default function Footer() {
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="https://linkedin.com/in/robertmoureyjr
+                href="https://linkedin.com/in/robertmoureyjr"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
                 LinkedIn
@@ -108,5 +109,6 @@ export default function Footer() {
         </div>
       </div>
     </footer>
+    </>
   );
 }
