@@ -54,7 +54,7 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-3xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-3xl font-extrabold text-white sm:text-center sm:text-3xl">
-            Testdrive PCI AI! Subscriptions available soon!  
+            Testdrive PCI AI before launch! 
           </p>
           <div className="mt-1 sm:flex sm:flex-col sm:align-center">
           <Iframe
