@@ -52,20 +52,11 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            AI SaaS subs are coming! Demo {' '}
-            <a
-              className="text-sky-600 underline"
-              href="https://embedding.hearti.ai"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              HeartiAI now
-            </a>
-            .
+            Hearti subs are coming! Try now for free!
           </p>
-          
+          <div className="sm:flex sm:flex-col sm:align-center>
           <iframe src="https://embedding.hearti.ai?embed=true" />
-        
+          </div>
         </div>
       </section>
     );
