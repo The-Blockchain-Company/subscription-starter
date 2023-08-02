@@ -24,13 +24,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
+            Portfolio{' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Engineering and consult from one of the worlds best. 
+            Engineering and consult from a developer ranked in the top 1% globally!
           </p>
         </a>
 
@@ -58,13 +58,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
+            Tebaro {' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore Tebaro Technologies 
+            Learn how to deploy NextJS apps as full stack AWS CloudFormations in 5 minutes! 
           </p>
         </a>
 
@@ -75,13 +75,13 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
+            Demo Hearti.AI {' '}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            NextJS apps as full stack AWS CloudFormations in 5 minutes! 
+            Get answers to PCI compliance questions in seconds! 
           </p>
         </a>
       </div>
