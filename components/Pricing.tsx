@@ -54,9 +54,9 @@ export default function Pricing({ products }: Props) {
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
             Hearti subs are coming! Try now for free!
           </p>
-          <div className="sm:flex sm:flex-col sm:align-center>
+          <div className="sm:flex sm:flex-col sm:align-center />
           <iframe src="https://embedding.hearti.ai"/>
-          </div>
+          
         </div>
       </section>
     );
