@@ -98,9 +98,9 @@ export default function Footer() {
         </div>
         <div className="flex items-center">
           <span className="text-white">Crafted by</span>
-          <a href="https://vercel.com" aria-label="blockchain-company.io Link">
+          <a href="https://blockchain-company.io" aria-label="blockchain-company.io Link">
             <img
-              src="/tbco-logo.svg"
+              src="/bcc-text-logo.svg"
               alt="The Blockchain Company.IO Logo"
               className="inline-block h-6 ml-4 text-white"
             />
