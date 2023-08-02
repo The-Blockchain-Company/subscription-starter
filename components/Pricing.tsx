@@ -52,7 +52,7 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            SaaS subscriptions are coming! In the meantime, test our prototype PCI compliance AI tool! {' '}
+            AI SaaS subscriptions are coming! Test of PCI compliance tool {' '}
             <a
               className="text-sky-600 underline"
               href="https://embedding.hearti.ai"
@@ -61,8 +61,11 @@ export default function Pricing({ products }: Props) {
             >
               HeartiAI
             </a>
-            .
+            now!
           </p>
+          <iframe>
+          <iframe src="https://embedding.hearti.ai?embed=true" width="575" height="400" />
+          </iframe>
         </div>
       </section>
     );
