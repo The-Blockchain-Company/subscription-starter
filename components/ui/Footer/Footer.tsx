@@ -32,23 +32,23 @@ export default function Footer() {
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="/"
+                href="https://profile.codersrank.io/user/rmourey26"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                About
+                CodersRank.io
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="/"
+                href="https://linkedin.com/in/robertmoureyjr
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                Careers
+                LinkedIn
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="/"
+                href="https://medium.com/@quantumone"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
                 Blog
@@ -85,7 +85,7 @@ export default function Footer() {
           <div className="flex space-x-6 items-center h-10">
             <a
               aria-label="Github Repository"
-              href="https://github.com/vercel/nextjs-subscription-payments"
+              href="https://github.com/the-blockchain-company"
             >
               <GitHub />
             </a>
