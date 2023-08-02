@@ -1,4 +1,4 @@
-lockfileVersion: 5.4
+lockfileVersion: 5.3
 
 specifiers:
   '@stripe/stripe-js': ^1.48.0
@@ -16,6 +16,7 @@ specifiers:
   prettier: ^2.8.4
   react: ^18.2.0
   react-dom: ^18.2.0
+  react-iframe: ^1.8.5
   react-merge-refs: ^2.0.1
   stripe: ^11.13.0
   swr: ^2.0.4
@@ -24,19 +25,20 @@ specifiers:
 
 dependencies:
   '@stripe/stripe-js': 1.48.0
-  '@supabase/auth-helpers-nextjs': 0.5.4_ku2vntnma2imfrsyohnkxzette
-  '@supabase/auth-helpers-react': 0.3.1_ku2vntnma2imfrsyohnkxzette
-  '@supabase/auth-ui-react': 0.3.3_ku2vntnma2imfrsyohnkxzette
-  '@supabase/auth-ui-shared': 0.1.2_ku2vntnma2imfrsyohnkxzette
+  '@supabase/auth-helpers-nextjs': 0.5.4_@supabase+supabase-js@2.10.0
+  '@supabase/auth-helpers-react': 0.3.1_@supabase+supabase-js@2.10.0
+  '@supabase/auth-ui-react': 0.3.3_@supabase+supabase-js@2.10.0
+  '@supabase/auth-ui-shared': 0.1.2_@supabase+supabase-js@2.10.0
   '@supabase/supabase-js': 2.10.0
   classnames: 2.3.2
-  next: 13.2.3_biqbaboplfbrettd7655fr4n2y
+  next: 13.2.3_react-dom@18.2.0+react@18.2.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
+  react-iframe: 1.8.5_react@18.2.0
   react-merge-refs: 2.0.1
   stripe: 11.13.0
   swr: 2.0.4_react@18.2.0
-  tailwindcss: 3.2.7_postcss@8.4.21
+  tailwindcss: 3.2.7
 
 devDependencies:
   '@types/node': 18.14.4
@@ -198,16 +200,16 @@ packages:
     resolution: {integrity: sha512-Kw2BRXk6z/wnTU9m2IJOhxJNrx9xzmpFSbk6D/Z0x6LJntMafiHeHFag2PvSF30O2quMb1UUdWsnZqGVDruZww==}
     dev: false
 
-  /@supabase/auth-helpers-nextjs/0.5.4_ku2vntnma2imfrsyohnkxzette:
+  /@supabase/auth-helpers-nextjs/0.5.4_@supabase+supabase-js@2.10.0:
     resolution: {integrity: sha512-Xm3BMDOYPbNyuh8UXDRgBDc3JkeM5S2PfuC1jFJ73CCay4YiH1YxTz06Cvtp+vLH432qdjnqH+49ehVvUehPnQ==}
     peerDependencies:
       '@supabase/supabase-js': ^2.0.4
     dependencies:
-      '@supabase/auth-helpers-shared': 0.2.4_ku2vntnma2imfrsyohnkxzette
+      '@supabase/auth-helpers-shared': 0.2.4_@supabase+supabase-js@2.10.0
       '@supabase/supabase-js': 2.10.0
     dev: false
 
-  /@supabase/auth-helpers-react/0.3.1_ku2vntnma2imfrsyohnkxzette:
+  /@supabase/auth-helpers-react/0.3.1_@supabase+supabase-js@2.10.0:
     resolution: {integrity: sha512-g3SFv08Dz9FapNif/ZY1b7qKGlMJDyTLSayHBz3kb3FuYxg7aLWgQtydDhm5AGbc0XtvpIBuhGTIOVevwpdosA==}
     peerDependencies:
       '@supabase/supabase-js': ^2.0.4
@@ -215,7 +217,7 @@ packages:
       '@supabase/supabase-js': 2.10.0
     dev: false
 
-  /@supabase/auth-helpers-shared/0.2.4_ku2vntnma2imfrsyohnkxzette:
+  /@supabase/auth-helpers-shared/0.2.4_@supabase+supabase-js@2.10.0:
     resolution: {integrity: sha512-c+hi3N6DhjPTzjXGOokre4gmMZOqt0f1ORrwZwi2s07pk3cbkmn77DwwVtlYMNi3oZNYRQqAfxJu83UzpJrrmg==}
     peerDependencies:
       '@supabase/supabase-js': ^2.0.4
@@ -223,20 +225,20 @@ packages:
       '@supabase/supabase-js': 2.10.0
     dev: false
 
-  /@supabase/auth-ui-react/0.3.3_ku2vntnma2imfrsyohnkxzette:
+  /@supabase/auth-ui-react/0.3.3_@supabase+supabase-js@2.10.0:
     resolution: {integrity: sha512-vrXQLwaW8DdKp4WAKRvgFM/DqXoCxBmYNQaUXLXvwdZJ0q/8c/vjSPnUMdjzpJDny2ljzoS3C8QaLimErik/Kg==}
     peerDependencies:
       '@supabase/supabase-js': ^2.8.0
     dependencies:
       '@stitches/core': 1.2.8
-      '@supabase/auth-ui-shared': 0.1.2_ku2vntnma2imfrsyohnkxzette
+      '@supabase/auth-ui-shared': 0.1.2_@supabase+supabase-js@2.10.0
       '@supabase/supabase-js': 2.10.0
       prop-types: 15.8.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@supabase/auth-ui-shared/0.1.2_ku2vntnma2imfrsyohnkxzette:
+  /@supabase/auth-ui-shared/0.1.2_@supabase+supabase-js@2.10.0:
     resolution: {integrity: sha512-RbshJ6YWp2d25mJJeG0iAaJq4q5yaH+eviz9B1JuNG4aVv9y6IFByPmsLa5ab93CAjn8hrkExlOd9N34sSI5IQ==}
     peerDependencies:
       '@supabase/supabase-js': ^2.8.0
@@ -273,8 +275,6 @@ packages:
     dependencies:
       '@types/phoenix': 1.5.5
       websocket: 1.0.34
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /@supabase/storage-js/2.3.1:
@@ -296,7 +296,6 @@ packages:
       cross-fetch: 3.1.5
     transitivePeerDependencies:
       - encoding
-      - supports-color
     dev: false
 
   /@swc/helpers/0.4.14:
@@ -475,11 +474,6 @@ packages:
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}
-    peerDependencies:
-      supports-color: '*'
-    peerDependenciesMeta:
-      supports-color:
-        optional: true
     dependencies:
       ms: 2.0.0
     dev: false
@@ -700,7 +694,7 @@ packages:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
     dev: false
 
-  /next/13.2.3_biqbaboplfbrettd7655fr4n2y:
+  /next/13.2.3_react-dom@18.2.0+react@18.2.0:
     resolution: {integrity: sha512-nKFJC6upCPN7DWRx4+0S/1PIOT7vNlCT157w9AzbXEgKy6zkiPKEt5YyRUsRZkmpEqBVrGgOqNfwecTociyg+w==}
     engines: {node: '>=14.6.0'}
     hasBin: true
@@ -926,6 +920,15 @@ packages:
       scheduler: 0.23.0
     dev: false
 
+  /react-iframe/1.8.5_react@18.2.0:
+    resolution: {integrity: sha512-F4cQJGs3ydaG6fJWfuz9yLwOU0Trzl6kttXuUG+vYwosH8enOOFxZWEDQCSbNVO8ayjfYZeqLxEvdvcsSy4GvA==}
+    peerDependencies:
+      react: '>=16.x.x'
+    dependencies:
+      object-assign: 4.1.1
+      react: 18.2.0
+    dev: false
+
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: false
@@ -1032,12 +1035,10 @@ packages:
       use-sync-external-store: 1.2.0_react@18.2.0
     dev: false
 
-  /tailwindcss/3.2.7_postcss@8.4.21:
+  /tailwindcss/3.2.7:
     resolution: {integrity: sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -1146,8 +1147,6 @@ packages:
       typedarray-to-buffer: 3.1.5
       utf-8-validate: 5.0.10
       yaeti: 0.0.6
-    transitivePeerDependencies:
-      - supports-color
     dev: false
 
   /whatwg-url/5.0.0:

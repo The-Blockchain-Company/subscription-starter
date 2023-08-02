@@ -9,6 +9,8 @@ import { useUser } from '@/utils/useUser';
 
 import { Price, ProductWithPrice } from 'types';
 
+import Iframe from 'react-iframe';
+
 interface Props {
   products: ProductWithPrice[];
 }
@@ -55,7 +57,15 @@ export default function Pricing({ products }: Props) {
             Hearti subs are coming! Try now for free!
           </p>
           <div className="sm:flex sm:flex-col sm:align-center />
-          <iframe src="https://embedding.hearti.ai"/>
+          <Iframe
+            url="https://embedding.hearti.ai"
+            width="auto"
+            height="auto"
+            id="iframe"
+            display="block"
+            position="relative"
+            
+          />
           
         </div>
       </section>
