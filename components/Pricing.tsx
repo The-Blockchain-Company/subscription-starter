@@ -64,7 +64,7 @@ export default function Pricing({ products }: Props) {
             .
           </p>
           
-          <iframe src="https://embedding.hearti.ai?embed=true" width="575" height="400" />
+          <iframe src="https://embedding.hearti.ai?embed=true" />
         
         </div>
       </section>
