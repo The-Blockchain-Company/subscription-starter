@@ -51,9 +51,9 @@ export default function Pricing({ products }: Props) {
   if (!products.length)
     return (
       <section className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
-        <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
-          <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
+          <p className="text-3xl font-extrabold text-white sm:text-center sm:text-3xl">
             Testdrive PCI AI! Subscriptions available soon!  
           </p>
           <div className="mt-1 sm:flex sm:flex-col sm:align-center">
@@ -72,9 +72,9 @@ export default function Pricing({ products }: Props) {
 
   return (
     <section className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
-      <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-3xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
         <div className="sm:flex sm:flex-col sm:align-center">
-          <h1 className="text-4xl font-extrabold text-white sm:text-center sm:text-6xl">
+          <h1 className="text-xl font-extrabold text-white sm:text-center sm:text-xl">
             Pricing Plans
           </h1>
           <p className="mt-5 text-xl text-zinc-200 sm:text-center sm:text-2xl max-w-2xl m-auto">
@@ -165,7 +165,7 @@ export default function Pricing({ products }: Props) {
           </p>
           <div className="flex flex-col items-center my-12 space-y-4 sm:mt-8 sm:space-y-0 md:mx-auto md:max-w-2xl sm:grid sm:gap-6 sm:grid-cols-5">
             <div className="flex items-center justify-start">
-              <a href="https://nextjs.org" aria-label="Next.js Link">
+              <a href="https://blockchain-company.io" aria-label="Blockchain Company.io">
                 <img
                   src="/bcc-text-logo.svg"
                   alt="The Blockchain Company.IO Logo"
