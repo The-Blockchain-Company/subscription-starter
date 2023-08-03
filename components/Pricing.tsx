@@ -56,7 +56,7 @@ export default function Pricing({ products }: Props) {
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
             Engineering and consult from one of the worlds best.
           </p>
-          <div className="mt-1 sm:flex sm:flex-col sm:align-center">
+          <div className="mt-2 sm:flex sm:flex-col sm:align-center">
           <p className="text-lg font-bold text-white sm:text-center sm:text-lg">
            Latest project: Hearti AI
            </p>
