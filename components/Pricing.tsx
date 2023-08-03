@@ -59,8 +59,7 @@ export default function Pricing({ products }: Props) {
           <div className="mt-1 sm:flex sm:flex-col sm:align-center">
           <Iframe
             url="https://embedding.hearti.ai"
-            height="auto"
-            className='w-3/4'
+            className="w-3/4 hover: h-full"
             display="block"
             position="relative"
             
