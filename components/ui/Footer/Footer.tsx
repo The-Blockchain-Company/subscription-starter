@@ -36,15 +36,15 @@ export default function Footer() {
                 href="https://profile.codersrank.io/user/rmourey26"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                CodersRank.io
+                Top 1% Ranking
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="https://linkedin.com/in/robertmoureyjr"
+                href="https://tebaro.com"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                LinkedIn
+                Tebaro
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
