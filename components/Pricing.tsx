@@ -54,7 +54,7 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            Test PCI AI before launch!
+            Try prototype Hearti AI saas!
           </p>
           <div className="mt-1 sm:flex sm:flex-col sm:align-center">
           <Iframe
