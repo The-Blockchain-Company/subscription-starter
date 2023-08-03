@@ -60,9 +60,10 @@ export default function Pricing({ products }: Props) {
           <p className="text-lg font-bold text-white sm:text-center sm:text-lg">
            Latest project: Hearti AI
            </p>
+          
           <Iframe
             url="https://hearti.ai"
-            className="w-3/4 hover: h-full"
+            className="align-center w-3/4 hover: h-full"
             position="relative"
             
           />
