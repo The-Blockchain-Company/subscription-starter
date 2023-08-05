@@ -16,14 +16,7 @@ export default function Footer() {
         <p className="mb-6 text-neutral-500 dark:text-neutral-300">
           Where its more then just code - we ship ROI.
         </p>
-        <li className="py-3 md:py-0 md:pb-4">
-              <Link
-                href="support@blockchain-company.io"
-                className=" mb-2 text-neutral-500 hover:text-zinc-200 transition ease-in-out duration-150  dark:text-neutral-300"
-              >
-                Support
-              </Link>
-            </li>
+        
       </div>
       <div className="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:px-6">
         <form action="/api/form" method="post">
