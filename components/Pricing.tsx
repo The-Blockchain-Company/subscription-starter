@@ -57,13 +57,37 @@ export default function Pricing({ products }: Props) {
             Engineering and consult from one of the worlds best.
           </p>
           <div className="mt-2 sm:flex sm:flex-col sm:align-center">
-          <p className="text-lg font-bold text-white sm:text-center sm:text-lg">
-           Latest: Medicare, PCI DSS, Cardano AI search 
+          <p className="text-base font-bold text-white sm:text-center sm:text-base">
+           Latest: Google Fitness and ChatGPT integrated web app plus SMART on FHIR  
            </p>
           
           <Iframe
-            url="https://embedding.hearti.ai"
-            className="place-content-center w-full h-3/5"
+            url="https://hearti.ai"
+            className="place-content-center w-full h-4/5"
+            position="relative"
+            
+          />
+          </div>
+          <div className="mt-2 sm:flex sm:flex-col sm:align-center">
+          <p className="text-base font-bold text-white sm:text-center sm:text-base">
+           Owner Robert Mourey Jr explains how SMBs can prepare the quantum computing era.  
+           </p>
+          
+          <Iframe
+            url="https://medium.com/@quantumone/quantum-computing-preparedness-for-smbs-de9ab7e77aaa"
+            className="place-content-center w-full h-4/5"
+            position="relative"
+            
+          />
+          </div>
+          <div className="mt-2 sm:flex sm:flex-col sm:align-center">
+          <p className="text-base font-bold text-white sm:text-center sm:text-base">
+           Ranked in the top 1% of coders globally!  
+           </p>
+          
+          <Iframe
+            url="https://profile.codersrank.io/user/rmourey26"
+            className="place-content-center w-full h-4/5"
             position="relative"
             
           />
