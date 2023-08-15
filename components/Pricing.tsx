@@ -63,7 +63,7 @@ export default function Pricing({ products }: Props) {
           
           <Iframe
             url="https://hearti.ai"
-            className="place-content-center w-full h-4/5"
+            className="mt-2 place-content-center w-full h-fit"
             position="relative"
             
           />
