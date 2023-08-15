@@ -56,7 +56,7 @@ export default function Pricing({ products }: Props) {
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
             Engineering and consult from one of the worlds best.
           </p>
-          <div className="mt-2 sm:flex sm:flex-col sm:align-center">
+          <div className="mt-10 sm:flex sm:flex-col sm:align-center">
           <p className="text-base font-bold text-white sm:text-center sm:text-base">
            Latest: Google Fitness and ChatGPT integrated web app plus SMART on FHIR  
            </p>
@@ -68,30 +68,7 @@ export default function Pricing({ products }: Props) {
             
           />
           </div>
-          <div className="mt-2 sm:flex sm:flex-col sm:align-center">
-          <p className="text-base font-bold text-white sm:text-center sm:text-base">
-           Owner Robert Mourey Jr explains how SMBs can prepare the quantum computing era.  
-           </p>
           
-          <Iframe
-            url="https://medium.com/@quantumone/quantum-computing-preparedness-for-smbs-de9ab7e77aaa"
-            className="place-content-center w-full h-4/5"
-            position="relative"
-            
-          />
-          </div>
-          <div className="mt-2 sm:flex sm:flex-col sm:align-center">
-          <p className="text-base font-bold text-white sm:text-center sm:text-base">
-           Ranked in the top 1% of coders globally!  
-           </p>
-          
-          <Iframe
-            url="https://profile.codersrank.io/user/rmourey26"
-            className="place-content-center w-full h-4/5"
-            position="relative"
-            
-          />
-          </div>
         </div>
       </section>
     );
