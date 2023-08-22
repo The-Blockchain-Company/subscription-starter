@@ -49,10 +49,10 @@ export default function Footer() {
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="https://medium.com/@quantumone"
+                href="https://mailchi.mp/blockchain-company/smb-ai-powerhouse"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                Blog
+                Subscribe | Free AI Tutorial
               </Link>
             </li>
           </ul>
