@@ -98,8 +98,8 @@ export default function Footer() {
           <span>&copy; 2023 The Blockchain Company.IO LLC All rights reserved.</span>
         </div>
         <div className="flex items-center"> 
-          <span className="text-white">Crafted by</span>
-          <a href="https://blockchain-company.io" aria-label="blockchain-company.io Link">
+          <span className="text-white">Make your SMB an AI Powerhouse! </span>
+          <a href="https://mailchi.mp/blockchain-company/smb-ai-powerhouse" aria-label="blockchain-company.io Link">
             <img
               src="/bcc-text-logo.svg"
               alt="The Blockchain Company.IO Logo"
