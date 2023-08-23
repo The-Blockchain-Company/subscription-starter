@@ -52,7 +52,7 @@ export default function Footer() {
                 href="https://mailchi.mp/blockchain-company/smb-ai-powerhouse"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                Subscribe | Free AI Tutorial
+                Free AI Tutorial
               </Link>
             </li>
           </ul>
