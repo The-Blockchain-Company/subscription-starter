@@ -54,7 +54,7 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            Engineering and consult from one of the worlds best.
+            High Tech Business Optimization Services
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center">
           <div className="mt-10 sm:flex sm:flex-col sm:align-center">
