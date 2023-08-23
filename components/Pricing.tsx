@@ -56,7 +56,7 @@ export default function Pricing({ products }: Props) {
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
             The Web 3.0 Newsletter for Real World Use Cases
           </p>
-          <div className="mt-10 sm:flex sm:flex-col sm:align-center">
+          <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="mt-10 text-base font-bold text-white sm:text-center sm:text-base">
            Perspectives from an engineer ranked in the top 1% globally who led a compliant US based DAO from 0 to a Crunchbase ranking as high as 15K. 1st issue coming soon!
            </p>
