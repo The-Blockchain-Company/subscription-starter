@@ -54,13 +54,13 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            The Web 3.0 Newsletter for Real World Use Cases
+            BlockSquawk Coming Soon!
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
-          <p className="mt-10 text-base font-bold text-white sm:text-center sm:text-base">
-           Perspectives from an engineer ranked in the top 1% globally who led a compliant US based DAO from 0 to a Crunchbase ranking as high as 15K. 1st issue coming soon!
+          <p className="text-base font-bold text-white sm:text-center sm:text-base">
+           BlockSquawk is a newsletter focused on real world use cases for Web 3.0 created by an engineer ranked in the top 1% of coders globally who also led a compliant US based DAO from 0 to a Crunchbase ranking as high as 15K.
            </p>
-          <a href="https://mailchi.mp/blockchain-company/smb-ai-powerhouse">
+          <a href="https://mailchi.mp/blockchain-company/smqjzv9r2m" className="align-center">
         
 <button className="self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
   Subscribe
