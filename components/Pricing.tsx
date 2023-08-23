@@ -56,14 +56,8 @@ export default function Pricing({ products }: Props) {
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
             High Tech Business Optimization Services
           </p>
-        
           <div className="mt-10 sm:flex sm:flex-col sm:align-center">
-        <button className="mt-10 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-   Subscribe now! 
-</button>
-</div>
-<div className="mt-10 sm:flex sm:flex-col sm:align-center">
-           <p className="mt-10 text-base font-bold text-white sm:text-center sm:text-base">
+          <p className="mt-10 text-base font-bold text-white sm:text-center sm:text-base">
            Latest: Google Fitness and ChatGPT integrated web app plus SMART on FHIR  
            </p>
           
@@ -73,8 +67,8 @@ export default function Pricing({ products }: Props) {
             position="relative"
             
           />
-          
           </div>
+          
         </div>
       </section>
     );
