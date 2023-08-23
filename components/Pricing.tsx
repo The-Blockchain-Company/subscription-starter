@@ -54,11 +54,11 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            Engineering and consult from one of the worlds best.
+            Engineering value  
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center">
           <div className="mt-10 sm:flex sm:flex-col sm:align-center">
-        <button class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+        <button className="mt-10 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
    Subscribe now! 
 </button>
 </div>
