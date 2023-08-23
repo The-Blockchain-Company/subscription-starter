@@ -60,6 +60,7 @@ export default function Pricing({ products }: Props) {
           <p className="text-base font-bold text-white sm:text-center sm:text-base">
            BlockSquawk is a newsletter focused on real world use cases for Web 3.0 created by an engineer ranked in the top 1% of coders globally who also led a compliant US based DAO from 0 to a Crunchbase ranking as high as 15K.
            </p>
+           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <a href="https://mailchi.mp/blockchain-company/smqjzv9r2m" className="align-center">
         
 <button className="self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
