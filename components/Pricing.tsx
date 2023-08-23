@@ -57,7 +57,7 @@ export default function Pricing({ products }: Props) {
             Engineering and consult from one of the worlds best.
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center">
-          <p className="text-base font-bold text-white sm:text-center sm:text-base">
+          <p className="mt-10 text-base font-bold text-white sm:text-center sm:text-base">
            Latest: Google Fitness and ChatGPT integrated web app plus SMART on FHIR  
            </p>
           
