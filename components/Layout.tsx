@@ -15,7 +15,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
     title: 'The Blockchain Company.IO',
-    description: 'BlockSquawk is a newsletter focused on legitimate business use cases for Web 3.0 from the perspective of a top ranked software engineer who founded a compliant US based DAO.'
+    description: 'BlockSquawk is a newsletter focused on legitimate business use cases for Web 3.0 from the perspective of a top ranked software engineer who founded a compliant US based DAO.',
     cardImage: '/og.png',
     ...pageMeta
   };
