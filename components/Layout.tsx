@@ -42,8 +42,9 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.cardImage} />
-        <Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1991072520590519"
-     crossOrigin="anonymous" />
+        
+   {process.env.NODE.ENV ==== "production" && (<Script src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1991072520590519"
+     crossOrigin="anonymous" />)}
       </Head>
       <Navbar />
       <main id="skip">{children}</main>
