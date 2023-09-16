@@ -3,6 +3,7 @@ export interface PageMeta {
   title: string;
   description: string;
   cardImage: string;
+  googleAdsenseAccount: string;
 }
 
 export interface Customer {
