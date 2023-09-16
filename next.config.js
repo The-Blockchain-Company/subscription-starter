@@ -4,6 +4,9 @@ const nextConfig = {
   images : {
     domains : ['quantumone.b-cdn.net', 'unpkg.com', 'lh3.googleusercontent.com'],
   },
+  experimental: {
+    nextScriptWorkers: true,
+  },
 };
 
 module.exports = nextConfig;
