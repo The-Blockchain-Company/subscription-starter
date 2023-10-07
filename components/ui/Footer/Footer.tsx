@@ -41,10 +41,10 @@ export default function Footer() {
             </li>
             <li className="py-3 md:py-0 md:pb-4">
               <Link
-                href="https://tebaro.com"
+                href="mailto:inquire@blockchain-company.io"
                 className="text-white hover:text-zinc-200 transition ease-in-out duration-150"
               >
-                Tebaro
+                Contact
               </Link>
             </li>
             <li className="py-3 md:py-0 md:pb-4">
