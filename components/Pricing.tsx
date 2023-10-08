@@ -50,6 +50,7 @@ export default function Pricing({ products }: Props) {
 
   if (!products.length)
     return (
+ <>
       <section className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
@@ -127,6 +128,7 @@ export default function Pricing({ products }: Props) {
       </div>  
   </div>
 </section>
+</>
     );
 
   return (
