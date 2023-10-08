@@ -122,7 +122,7 @@ export default function Home() {
                   </span>
                   <span className="text-sm">14 days ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">80-seo-score</a></h2>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">SEO - Outrank Your Best Competitors </a></h2>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">We employ a range of technical SEO and content generation strategies to produce scores exceeding the average score of the top 100 websites.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
