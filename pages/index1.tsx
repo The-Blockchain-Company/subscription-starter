@@ -95,12 +95,12 @@ export default function Home() {
               <div className="flex justify-between items-center mb-5 text-gray-500">
                   <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
                       <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
-                      Tutorial
+                      Article
                   </span>
                   <span className="text-sm">14 days ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Convert NextJS app to full stack AWS Cloudformation </a></h2>
-              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Set up your AWS credentials, clone our AppSync-GPT repo, and add your... </p>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Blockchain & Healthcare: Why Ethereum and IPFS driven storage solutions cannot meet HIPPA regulations.</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">The healthcare industry arguably stands to benefit the most from blockchain technology and yet the most prevalent storage protocol used by all blockchains - the InterPlanetary File System (IPFS) - cannot meet HIPPA regulations in its current form. In this arcticle, we explore the limitations of IPFS and the startups working on solutions. </p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
                       <img className="w-7 h-7 rounded-full" src="https://quantumone.b-cdn.net/rmourey-profile-pic.png" alt="Robert Mourey Jr avatar" />
