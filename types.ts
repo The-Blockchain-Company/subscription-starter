@@ -4,6 +4,10 @@ export interface PageMeta {
   description: string;
   cardImage: string;
   googleAdsenseAccount: string;
+  keywords: string;
+  referrer: string;
+  creator: string;
+  publisher: string; 
 }
 
 export interface Customer {
