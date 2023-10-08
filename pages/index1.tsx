@@ -99,8 +99,8 @@ export default function Home() {
                   </span>
                   <span className="text-sm">14 days ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">How to quickly deploy a static website</a></h2>
-              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Convert NextJS app to full stack AWS Cloudformation </a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Set up your AWS credentials, clone our AppSync-GPT repo, and add your... </p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
                       <img className="w-7 h-7 rounded-full" src="https://quantumone.b-cdn.net/rmourey-profile-pic.png" alt="Robert Mourey Jr avatar" />
