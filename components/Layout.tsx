@@ -15,10 +15,11 @@ interface Props extends PropsWithChildren {
 export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
-    title: 'The Blockchain Company.IO',
-    description: 'BlockSquawk is a newsletter focused on legitimate business use cases for Web 3.0 from the perspective of a top ranked software engineer who founded a compliant US based DAO.',
+    title: 'The Blockchain Company.IO - Running businesses optimally with digital transformation first development strategies using AI, blockchain, and the latest traditional computing technologies.', 
+    description: 'Running optimally? The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free consultation to find out how your business can benefit.',
     cardImage: '/og.png',
     googleAdsenseAccount: 'ca-pub-1991072520590519',
+    keywords: 'blockchain, web3, web developer near me, SEO score, how to increase your SEO score',
     ...pageMeta
   };
 
