@@ -17,9 +17,12 @@ export default function Layout({ children, meta: pageMeta }: Props) {
   const meta = {
     title: 'The Blockchain Company.IO - Running businesses optimally with digital transformation first development strategies using AI, blockchain, and the latest traditional computing technologies.', 
     description: 'Running optimally? The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free consultation to find out how your business can benefit.',
+    referrer: 'origin-when-cross-origin',
+    creator: 'Robert Mourey Jr.',
+    publisher: 'The Blockchain Company.IO LLC',
     cardImage: '/og.png',
     googleAdsenseAccount: 'ca-pub-1991072520590519',
-    keywords: 'blockchain, web3, web developer near me, SEO score, how to increase your SEO score',
+    keywords: 'blockchain, web3, web developer near me, SEO score, how to increase your SEO score, AI developer near me, blockchain developer near me, optimize SEO, optimize my business, ChatGPT developer, webflow developer, nextjs developer, quantum computing, digital transformation, IPFS, Ethereum, Dapps, DAO, blockchain newsletter',
     ...pageMeta
   };
 
