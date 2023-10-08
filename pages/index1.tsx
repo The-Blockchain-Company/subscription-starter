@@ -103,7 +103,7 @@ export default function Home() {
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">Static websites are now used to bootstrap lots of websites and are becoming the basis for a variety of tools that even influence both web designers and developers.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
-                      <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
+                      <img className="w-7 h-7 rounded-full" src"https://quantumone.b-cdn.net/rmourey-profile-pic.png" alt="Robert Mourey Jr avatar" />
                       <span className="font-medium dark:text-white">
                           Robert Mourey Jr
                       </span>
@@ -126,7 +126,7 @@ export default function Home() {
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400">We employ a range of technical SEO and content generation strategies to produce scores exceeding the average score of the top 100 websites.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
-                      <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/bonnie-green.png" alt="Bonnie Green avatar" />
+                      <img className="w-7 h-7 rounded-full" src="https://quantumone.b-cdn.net/rmourey-profile-pic.png" alt="Robert Mourey Jr avatar" />
                       <span className="font-medium dark:text-white">
                           Robert Mourey Jr
                       </span>
