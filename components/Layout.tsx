@@ -22,7 +22,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
     publisher: 'The Blockchain Company.IO LLC',
     cardImage: '/og.png',
     googleAdsenseAccount: 'ca-pub-1991072520590519',
-    keywords: 'blockchain, web3, web developer near me, SEO score, how to increase your SEO score, AI developer near me, blockchain developer near me, optimize SEO, optimize my business, ChatGPT developer, webflow developer, nextjs developer, quantum computing, digital transformation, IPFS, Ethereum, Dapps, DAO, blockchain newsletter',
+    keywords: 'blockchain, SEO, SEO score, digital transformation benefits, web3, web developer near me, improve my SEO score, how to increase your SEO score, AI developer near me, improve business SEO, optimize business SEO, blocksquawk, blockchain developer near me, optimize SEO rankings, optimize my business, ChatGPT developer, webflow developer, nextjs developer, quantum computing, digital transformation, IPFS, Ethereum, Dapps, DAO, Cardano, can ai help my business, SEO solutions, SMB AI powerhouse, CodersRank, github, blockchain newsletter',
     ...pageMeta
   };
 
