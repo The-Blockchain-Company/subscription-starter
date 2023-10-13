@@ -16,7 +16,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
     title: 'The Blockchain Company.IO - Running businesses optimally with digital transformation first development strategies using AI, blockchain, and the latest traditional computing technologies.', 
-    description: 'Is your SEO score outranking the top 100? The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free consultation to find out how your business can benefit.',
+    description: 'Outrank the top 100 websites! The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free consultation to find out how your business can benefit.',
     referrer: 'origin-when-cross-origin',
     creator: 'Robert Mourey Jr.',
     publisher: 'The Blockchain Company.IO LLC',
