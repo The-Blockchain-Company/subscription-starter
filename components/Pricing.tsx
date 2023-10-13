@@ -55,7 +55,7 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            Running optimally?
+            Is your SEO score outranking the top 100? 
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-base font-bold text-white sm:text-center sm:text-base">
