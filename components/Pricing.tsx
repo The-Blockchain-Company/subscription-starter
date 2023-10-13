@@ -55,11 +55,11 @@ export default function Pricing({ products }: Props) {
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
-            Is your SEO score outranking the top 100? 
+            Outrank the top 100 websites! 
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-base font-bold text-white sm:text-center sm:text-base">
-           The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free digital evaluation to find out how your business can benefit. Whether it's pumping your SEO score over 80 or building an AI powered help desk, we have you covered. 
+           The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free digital evaluation to find out how your business can benefit. Whether it's pumping your SEO score higher than the top 100 websites or building an AI powered help desk, or rapid prototyping we have you covered. 
             Join our free newsletter to receive analysis on business use cases for blockchain technology, AI, and quantum computing. 
            </p>
            <div className="sm:flex sm:flex-col sm:align-center">
