@@ -48,7 +48,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
         <meta name="twitter:description" content={meta.description} />
         <meta name="twitter:image" content={meta.cardImage} />
         <meta name="google-adsense-account" content={meta.googleAdsenseAccount} />
-        
+        <meta name="keywords" content={meta.keywords} />
    <Script id="Adsense-id" data-ad-client="ca-pub-1991072520590519" strategy="worker" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1991072520590519"
      crossOrigin="anonymous" />
       </Head>
