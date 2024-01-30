@@ -4,7 +4,7 @@ const nextConfig = {
   rewrites: async () => [
   {
     source: "/public/resume.html",
-    destination: "/app/api/resume.js",
+    destination: "/pages/api/resume.js",
   },
 ],
   images : {
