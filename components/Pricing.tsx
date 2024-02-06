@@ -6,7 +6,7 @@ import Button from '@/components/ui/Button';
 import { postData } from '@/utils/helpers';
 import { getStripe } from '@/utils/stripe-client';
 import { useUser } from '@/utils/useUser';
-
+import Link from 'next/link'
 import { Price, ProductWithPrice } from 'types';
 
 import Iframe from 'react-iframe';
