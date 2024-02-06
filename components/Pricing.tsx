@@ -64,11 +64,13 @@ export default function Pricing({ products }: Props) {
            </p>
            <div className="sm:flex sm:flex-col sm:align-center">
           <a href="https://mailchi.mp/blockchain-company/smqjzv9r2m" className="align-center text-center">
-        
-<button className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-  Subscribe
-</button>
-</a>
+                      <Link href="/signin" className={s.link}>
+            
+           
+
+<button className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">SignUp and Subscribe</button>
+   </Link>
+
           </div>
         </div>
       </section>
