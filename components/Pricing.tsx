@@ -64,13 +64,14 @@ export default function Pricing({ products }: Props) {
            </p>
            <div className="sm:flex sm:flex-col sm:align-center">
          
-                      <Link href="/signin" className={s.link}>
+                    <a href="/signin" className={s.link}>
             
            
 
-<span className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow"/>
+<button className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
   SignUp and subscribe
-   </Link>
+</button>
+   </a>
 
           </div>
         </div>
