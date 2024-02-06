@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import cn from 'classnames';
-import s from '@/components/ui/Navbar.module.css';
+import s from '@/components/ui/Navbar/Navbar.module.css';
 import Button from '@/components/ui/Button';
 import { postData } from '@/utils/helpers';
 import { getStripe } from '@/utils/stripe-client';
