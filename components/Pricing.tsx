@@ -6,7 +6,7 @@ import Button from '@/components/ui/Button';
 import { postData } from '@/utils/helpers';
 import { getStripe } from '@/utils/stripe-client';
 import { useUser } from '@/utils/useUser';
-import Link from 'next/link'
+import Link from 'next/link';
 import { Price, ProductWithPrice } from 'types';
 
 import Iframe from 'react-iframe';
@@ -54,7 +54,7 @@ export default function Pricing({ products }: Props) {
       <section className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
           <div className="sm:flex sm:flex-col sm:align-center"></div>
-          <p className="text-6xl font-extrabold text-white sm:text-center sm:text-6xl">
+          <p className="text-6xl mt-3 font-extrabold text-white sm:text-center sm:text-6xl">
           Optimize!
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
@@ -63,9 +63,11 @@ export default function Pricing({ products }: Props) {
             Join our free newsletter to receive analysis on business use cases for blockchain technology, AI, and quantum computing. 
            </p>
            <div className="sm:flex sm:flex-col sm:align-center">
-             <Link href="/signin" className={s.link}>
+             <>
+<Link href="/signin" className={s.link}>
                 Sign up to subscribe!
               </Link>
+              </>
           </div>
         </div>
       </section>
