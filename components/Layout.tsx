@@ -15,14 +15,14 @@ interface Props extends PropsWithChildren {
 export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
-    title: 'The Blockchain Company.IO - Running businesses optimally with digital transformation first development strategies using AI, blockchain, and the latest traditional computing technologies.', 
-    description: 'Outrank the top 100 websites! The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free consultation to find out how your business can benefit.',
+    title: 'The Blockchain Company.IO - Optimize operations with digital transformation first development and engineering services and consult for small business through enterprise.', 
+    description: '',
     referrer: 'origin-when-cross-origin',
     creator: 'Robert Mourey Jr.',
     publisher: 'The Blockchain Company.IO LLC',
     cardImage: '/og.png',
     googleAdsenseAccount: 'ca-pub-1991072520590519',
-    keywords: 'blockchain, SEO, SEO score, digital transformation benefits, web3, web developer near me, improve my SEO score, how to increase your SEO score, AI developer near me, improve business SEO, optimize business SEO, blocksquawk, blockchain developer near me, optimize SEO rankings, optimize my business, ChatGPT developer, webflow developer, nextjs developer, quantum computing, digital transformation, IPFS, Ethereum, Dapps, DAO, Cardano, can ai help my business, SEO solutions, SMB AI powerhouse, CodersRank, github, blockchain newsletter',
+    keywords: 'blockchain, how can blockchain help my business, SEO, SEO score, blockchain consultant, BitCoin, NFT, NFTs, digital transformation first development, web3, web developer near me, improve my SEO score, how to increase your SEO score, AI developer near me, improve business SEO, optimize business SEO, blocksquawk, blockchain developer near me, optimize SEO rankings, optimize my business, ChatGPT developer, webflow developer, nextjs developer, quantum computing, digital transformation, IPFS, Ethereum, Dapps, DAO, Cardano, can ai help my business, SEO solutions, SMB AI powerhouse, CodersRank, github, blockchain newsletter',
     ...pageMeta
   };
 
