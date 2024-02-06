@@ -59,9 +59,9 @@ export default function Pricing({ products }: Props) {
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-base font-bold text-white sm:text-center sm:text-base">
-           The digital transformation is here and rapidly changing the business landscape. Contact us to schedule a free evaluation to find out how your business can benefit. Whether it's pumping your SEO score higher than the top 100 websites or building an AI powered help desk, or rapid prototyping we have you covered. 
-            Join our free newsletter to receive analysis on business use cases for blockchain technology, AI, and quantum computing. 
-           </p>
+           The digital transformation is accelerating toward the most significant technological change in recorded history - the quantum computing era. 
+            Imagine a world with computers capable of processing 9,000 years of data in milliseconds - how will your business stack up? Subscribe for the
+            latest insights from an entrepreneur and engineer among the few who, 3 years ago, predicted quantum's impact on public blockchains. 
            <div className="sm:flex sm:flex-col sm:align-center">
              <>
 <Link href="/signin" className={cn('mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow',
