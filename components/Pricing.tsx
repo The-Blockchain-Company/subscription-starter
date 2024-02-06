@@ -63,13 +63,9 @@ export default function Pricing({ products }: Props) {
             Join our free newsletter to receive analysis on business use cases for blockchain technology, AI, and quantum computing. 
            </p>
            <div className="sm:flex sm:flex-col sm:align-center">
-         
-                  <Link href="/signin" className={cn('mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow',
-                                                  {s.links}
-                                                         )}> 
-                                       SignUp and subscribe
-                    </Link>
-
+             <Link href="/signin" className={s.link}>
+                Sign up to subscribe!
+              </Link>
           </div>
         </div>
       </section>
