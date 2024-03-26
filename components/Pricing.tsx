@@ -60,7 +60,7 @@ export default function Pricing({ products }: Props) {
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-base font-bold text-white xs:text-center xs:text-base sm:text-start">
            Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
-           SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground, podcast and music page. Onyx is also available in 'DApp form' Web 3.0 connectivity. 
+           SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, Tailwind CSS powered Shadcn UI, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
             </p>
            <div className="sm:flex sm:flex-col sm:align-center">
              <>
@@ -79,7 +79,7 @@ export default function Pricing({ products }: Props) {
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">BlockSquawk</h2>
-          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400"> We're about 1 week away from going live with the newsletter that dives deeply into legitimate business use cases across web 3.0, AI, and quantum computing.</p>
+          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">BitCoin ETF's are here! Contact me to learn how you can incorporate a compliant, US based DAO to ride the blockchain wave!</p>
       </div>
       <div className="grid gap-8 lg:grid-cols-2">
           <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
