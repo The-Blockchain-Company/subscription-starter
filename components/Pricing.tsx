@@ -53,15 +53,14 @@ export default function Pricing({ products }: Props) {
  <>
       <section className="bg-gradient-to-r from-gray-700 via-gray-900 to-black">
         <div className="max-w-6xl mx-auto py-8 sm:py-24 px-4 sm:px-6 lg:px-8">
-          <div className="sm:flex sm:flex-col sm:align-center"></div>
-          <p className="text-6xl mt-3 font-extrabold text-white sm:text-center sm:text-6xl">
-          Optimize!
+          <div className="xs:flex-col:align-center sm:flex-start items-stretch"></div>
+          <p className="text-6xl mt-3 font-extrabold text-white xs:text-center xs:text-2xl sm:text-start">
+          Get Onyx FREE!
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
-          <p className="text-base font-bold text-white sm:text-center sm:text-base">
-           The digital transformation is accelerating toward the most significant technological change in recorded history - the quantum computing era. 
-            Imagine a world with computers capable of processing 9,000 years of data in milliseconds - how will your business stack up? Subscribe for 
-            insight from one of the few who predicted public blockchains would be impacted significantly by quantum computing. 
+          <p className="text-base font-bold text-white xs:text-center xs:text-base sm:text-start">
+           Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
+           SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground, podcast and music page. Onyx is also available in 'DApp form' Web 3.0 connectivity. 
             </p>
            <div className="sm:flex sm:flex-col sm:align-center">
              <>
@@ -69,7 +68,10 @@ export default function Pricing({ products }: Props) {
                               s.link)}>
                 Sign up to subscribe!
               </Link>
-              </>
+               <Link href="https://github.com/rmourey26/onyx.git" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Get Onyx!
+              </Link>              
+           </>
           </div>
         </div>
       </section>
