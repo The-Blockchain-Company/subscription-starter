@@ -61,16 +61,29 @@ export default function Pricing({ products }: Props) {
           <p className="text-base font-bold text-white xs:text-center xs:text-base sm:text-start">
            Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
            SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, Tailwind CSS powered Shadcn UI, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
-            </p>
-           <div className="sm:flex sm:flex-col sm:align-center">
+          </p>
+           <div className="xs:flex xs:flex-col sm:align-center sm:grid-cols-4">
              <>
 <Link href="/signin" className={cn('mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow',
                               s.link)}>
                 Sign up to subscribe!
               </Link>
+               <div>
                <Link href="https://github.com/rmourey26/onyx.git" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Get Onyx!
-              </Link>              
+                Onyx
+              </Link>
+                 </div>
+               <div>
+                  <div>
+               <Link href="https://github.com/quantum-one-dlt/onyx-one" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                Onyx Web3
+              </Link>
+                 </div>
+               <div>
+               <Link href="https://defiprotocol.blockchain-company.io" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+                DeFi Demo
+              </Link>
+                 </div>
            </>
           </div>
         </div>
@@ -78,8 +91,8 @@ export default function Pricing({ products }: Props) {
         <section className="bg-white dark:bg-gray-900">
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-          <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">BlockSquawk</h2>
-          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">BitCoin ETF's are here! Contact me to learn how you can incorporate a compliant, US based DAO to ride the blockchain wave!</p>
+          <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">The Blockchain Company.IO</h2>
+          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Greetings, I hope you're doing well! My name is Robert Mourey Jr. and I am the owner of The Blockchain Company.IO LLC. This site is currently under construction. Please reach out to me at support@blockchain-company.io if you're looking for a quote for engineering and or consult services.</p>
       </div>
       <div className="grid gap-8 lg:grid-cols-2">
           <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
