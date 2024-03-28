@@ -62,7 +62,7 @@ export default function Pricing({ products }: Props) {
            Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
            SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, Tailwind CSS powered Shadcn UI, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
           </p>
-           <div className="xs:flex xs:flex-col sm:align-center sm:grid-cols-4">
+           <div className="h-screen xs:flex xs:grid-cols-1 xs:align-center items-center sm:align-center sm:grid-cols-4">
              <>
 <Link href="/signin" className={cn('mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow',
                               s.link)}>
