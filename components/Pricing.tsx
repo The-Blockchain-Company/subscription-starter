@@ -74,7 +74,7 @@ export default function Pricing({ products }: Props) {
               </Link>
                  </div>
                <div>
-                  <div>
+                 
                <Link href="https://github.com/quantum-one-dlt/onyx-one" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Onyx Web3
               </Link>
