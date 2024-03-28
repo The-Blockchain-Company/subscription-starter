@@ -62,29 +62,19 @@ export default function Pricing({ products }: Props) {
            Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
            SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, Tailwind CSS powered Shadcn UI, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
           </p>
-           <div className="h-screen xs:flex xs:grid-cols-1 xs:align-center items-center sm:align-center sm:grid-cols-4">
-             <>
+           <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+             
 <Link href="/signin" className={cn('mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow',
                               s.link)}>
                 Sign up to subscribe!
               </Link>
-               <div>
+              
                <Link href="https://github.com/rmourey26/onyx.git" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
                 Onyx
               </Link>
-                 </div>
-               <div>
                  
-               <Link href="https://github.com/quantum-one-dlt/onyx-one" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Onyx Web3
-              </Link>
-                 </div>
-               <div>
-               <Link href="https://defiprotocol.blockchain-company.io" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                DeFi Demo
-              </Link>
-                 </div>
-           </>
+                 
+       
           </div>
         </div>
       </section>
