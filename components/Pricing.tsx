@@ -60,7 +60,7 @@ export default function Pricing({ products }: Props) {
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-base font-bold text-white xs:text-center xs:text-base sm:text-start">
            Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
-           SSR authentication and database connections, headers, cookies, storage, Zod and YUP! validation, Tailwind CSS powered Shadcn UI, and TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
+           SSR authentication and Postgresql database connections, headers, cookies, storage, data validation, role based access control Tailwind CSS TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
           </p>
            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
              
@@ -82,7 +82,7 @@ export default function Pricing({ products }: Props) {
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">The Blockchain Company.IO</h2>
-          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Greetings, I hope you're doing well! My name is Robert Mourey Jr. and I am the owner of The Blockchain Company.IO LLC. This site is currently under construction. Please reach out to me at support@blockchain-company.io if you're looking for a quote for engineering and or consult services.</p>
+          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Greetings, I hope you're doing well! My name is Robert Mourey Jr. and I am the owner of The Blockchain Company.IO LLC. and focused on creating greater opportunity and empowerment through technology.</p>
       </div>
       <div className="grid gap-8 lg:grid-cols-2">
           <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
