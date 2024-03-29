@@ -70,7 +70,7 @@ export default function Pricing({ products }: Props) {
               </Link>
               
                <Link href="https://github.com/rmourey26/onyx.git" className="mt-10 align-center self-center bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
-                Onyx
+                Get Onyx!
               </Link>
                  
                  
@@ -82,7 +82,7 @@ export default function Pricing({ products }: Props) {
   <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
       <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
           <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">The Blockchain Company.IO</h2>
-          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Greetings, I hope you're doing well! My name is Robert Mourey Jr. and I am the owner of The Blockchain Company.IO LLC. and focused on creating greater opportunity and empowerment through technology.</p>
+          <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">Greetings, I hope you're doing well! My name is Robert Mourey Jr. and I am the owner of The Blockchain Company.IO LLC. My passion is creating greater opportunity and empowerment through technology.</p>
       </div>
       <div className="grid gap-8 lg:grid-cols-2">
           <article className="p-6 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
