@@ -59,8 +59,8 @@ export default function Pricing({ products }: Props) {
           </p>
           <div className="mt-10 sm:flex sm:flex-col sm:align-center"></div>
           <p className="text-base font-bold text-white xs:text-center xs:text-base sm:text-start">
-           Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that includes fully configured Supabase 
-           SSR authentication and Postgresql database connections, headers, cookies, storage, data validation, role based access control Tailwind CSS TanStack React Query so you can begin signing up users and managing data almost immediately. It also includes role based access control, admin dashboard, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web 3.0 connectivity. 
+           Looking to get your MVP up and running in days instead of weeks or months? Onyx is a batteries included, full stack NextJS 14 app written in TypeScript that allows you to sign up users immediately with fully configured Supabase 
+           SSR authentication and Postgresql database connections, headers, cookies, storage, Zod and YUP! data validation, role based access control, Tailwind CSS, TanStack React Query, Shadcn-UI, OpenAI API ready playground UI, podcast/music page, and more. Onyx is also available in 'DApp form' with Web3Modal multi EVM chain connections with access to over 380 wallets. 
           </p>
            <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
              
