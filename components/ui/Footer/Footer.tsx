@@ -95,7 +95,7 @@ export default function Footer() {
       </div>
       <div className="py-12 flex flex-col md:flex-row justify-between items-center space-y-4 bg-zinc-900">
         <div>
-          <span>&copy; 2023 The Blockchain Company.IO LLC All rights reserved.</span>
+          <span>&copy; 2024 The Blockchain Company.IO LLC All rights reserved.</span>
         </div>
         <div className="flex items-center"> 
           <span className="text-white">Make your SMB an AI Powerhouse! </span>
