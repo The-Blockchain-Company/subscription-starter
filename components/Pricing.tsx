@@ -93,8 +93,8 @@ export default function Pricing({ products }: Props) {
                   </span>
                   <span className="text-sm">1 day ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Blockchain & Healthcare: Why Ethereum and IPFS driven storage solutions cannot meet HIPPA regulations. And what are Ricardian contracts?</a></h2>
-              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">The healthcare industry arguably stands to benefit the most from blockchain technology and yet the most prevalent storage protocol used by all blockchains - the InterPlanetary File System (IPFS) - cannot meet HIPPA regulations in its current form. In this arcticle, we explore the limitations of IPFS and the startups working on solutions. </p>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="https://robert-mourey-jr.medium.com/make-your-smb-an-ai-powerhouse-71f9a6c05a7b">Make Your SMB an AI Powerhouse</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">In the business world, 2023 has been the year of artificial intelligence (AI). OpenAI’s ChatGPT — an AI powered language model — experienced the fastest user growth in history reaching 100M users in two months. The success of ChatGPT has drawn in fresh investment into OpenAI from Microsoft to the tune of $10 billion USD. Microsoft’s Bing is now augmented with ChatGPT which has forever changed the Alphabet (Google) dominated search engine business model. Bing with ChatGPT-4 is essentially a free personal AI assistant that has the knowledge of literally everything found on the internet. </p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
                       <img className="w-7 h-7 rounded-full" src="https://quantumone.b-cdn.net/rmourey-profile-pic.png" alt="Robert Mourey Jr avatar" />
@@ -116,8 +116,8 @@ export default function Pricing({ products }: Props) {
                   </span>
                   <span className="text-sm">2 days ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">SEO - Outrank Your Best Competitors </a></h2>
-              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">We employ a range of technical SEO and content generation strategies to produce scores exceeding the average score of the top 100 websites.</p>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="https://robert-mourey-jr.medium.com/what-if-us-state-retirement-systems-became-daos-controlled-by-pensioners-f6636f2bccf5">What if US State retirement systems became DAO’s controlled by pensioners?</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400">It’s no secret that many US States are saddled with enormous debts that may never be fully repaid. It’s also no secret that many state pensions are underfunded and in danger at performing better as barber shop offering free ‘haircuts’ then a retirement vehicle. Jokes aside, lets discuss, possible solutions. DAO’s-(decentralized autonomous organization for the uninitiated)-can allow pensioners full control of their retirement by the very nature of the DAO. The members of the DAO, typically vis a vi ownership of the coin or token associated with the DAO, are afforded what are known as DAO governance rights. </p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
                       <img className="w-7 h-7 rounded-full" src="https://quantumone.b-cdn.net/rmourey-profile-pic.png" alt="Robert Mourey Jr avatar" />
