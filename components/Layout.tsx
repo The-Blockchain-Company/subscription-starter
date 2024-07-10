@@ -16,7 +16,7 @@ export default function Layout({ children, meta: pageMeta }: Props) {
   const router = useRouter();
   const meta = {
     title: 'The Blockchain Company.IO', 
-    description: 'Get your startups MVP running in days with Onyx, my free MVP template!'
+    description: 'Get your startups MVP running in days with Onyx, my free MVP template!',
     referrer: 'origin-when-cross-origin',
     creator: 'Robert Mourey Jr.',
     publisher: 'The Blockchain Company.IO LLC',
